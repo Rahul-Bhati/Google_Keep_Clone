@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>QNotes Wep-App - To save your time.</title>
+     <link href="css/style.css" rel="stylesheet"></link>
+     
+</head>
+<body>
+     <div class="container" id="con">
+          <!-- <h1><span style="text-align: center;width: auto;">QNotes - App</span></h1> -->
+          <div class="navbar"> 
+               <header>
+               <a class="logo" href="index.html"><img src="logo.png" alt="logo"></a>
+                    <nav>
+                         <ul class="nav__links">
+                              <li><a href="index.html">Home</a></li>
+                              <li><a id="deleted_notes">Delete</a></li>
+                              <li><a id="archive_notes">Archive</a></li>
+                         </ul>
+                    </nav>
+               </header>
+          </div> 
+          <div class="main" id="main">
+               <div id="input-box">
+                    <div class="title">
+                         <input type="text" name="title" id="title" placeholder="title">
+                    </div>
+                    <div class="text">
+                         <textarea name="text" id="text" cols="30" rows="10" placeholder="enter your notes herer..."></textarea>
+                    </div>
+                    <div class="btn">
+                         <button  id="addNote">Add</button>
+                    </div>
+               </div>
+               <div id="notes"></div>
+          </div>
+          <div id="del-note"></div>
+     </div>
+     <script src="js/script.js"></script>
+</body>
+</html>
