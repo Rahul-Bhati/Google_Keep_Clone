@@ -8,3 +8,5 @@ Adding Notes: Users will be able to create new notes by entering a title and con
 Deleting Notes: Each note will have a delete button that, when clicked, will remove the corresponding note from the list of notes.
 
 Archiving Notes: Users will have the option to archive notes they no longer need. The archived notes will be moved to a separate section, allowing users to declutter the main notes area.
+
+link : https://rahul-bhati.github.io/Google_Keep_Clone/
